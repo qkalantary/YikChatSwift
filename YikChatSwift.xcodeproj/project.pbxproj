@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		182116521A2E796F00022CB4 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182116511A2E796F00022CB4 /* Settings.swift */; };
+		182116541A2E7EBF00022CB4 /* global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182116531A2E7EBF00022CB4 /* global.swift */; };
 		18741EF61A2E30580099A935 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18741EF51A2E30580099A935 /* AppDelegate.swift */; };
 		18741EF91A2E30580099A935 /* YikChatSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18741EF71A2E30580099A935 /* YikChatSwift.xcdatamodeld */; };
 		18741EFB1A2E30580099A935 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18741EFA1A2E30580099A935 /* ViewController.swift */; };
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		182116511A2E796F00022CB4 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		182116531A2E7EBF00022CB4 /* global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = global.swift; sourceTree = "<group>"; };
 		18741EF01A2E30580099A935 /* YikChatSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YikChatSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18741EF41A2E30580099A935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18741EF51A2E30580099A935 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,7 +85,9 @@
 			children = (
 				18741EF51A2E30580099A935 /* AppDelegate.swift */,
 				18741EFA1A2E30580099A935 /* ViewController.swift */,
+				182116531A2E7EBF00022CB4 /* global.swift */,
 				18741EFC1A2E30580099A935 /* Main.storyboard */,
+				182116511A2E796F00022CB4 /* Settings.swift */,
 				18741EFF1A2E30580099A935 /* Images.xcassets */,
 				18741F011A2E30580099A935 /* LaunchScreen.xib */,
 				18741EF71A2E30580099A935 /* YikChatSwift.xcdatamodeld */,
@@ -217,7 +223,9 @@
 			files = (
 				18741EFB1A2E30580099A935 /* ViewController.swift in Sources */,
 				18741EF61A2E30580099A935 /* AppDelegate.swift in Sources */,
+				182116521A2E796F00022CB4 /* Settings.swift in Sources */,
 				18741EF91A2E30580099A935 /* YikChatSwift.xcdatamodeld in Sources */,
+				182116541A2E7EBF00022CB4 /* global.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +417,7 @@
 				18741F141A2E30580099A935 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18741F151A2E30580099A935 /* Build configuration list for PBXNativeTarget "YikChatSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +426,7 @@
 				18741F171A2E30580099A935 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

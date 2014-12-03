@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YikChatSwift/ViewController.swift"
+            timestampString = "439258840.328791"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YikChatSwift.ViewController.chatView.getter : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UITextView&gt;"
+                  moduleName = "YikChatSwift"
+                  urlString = "file:///Users/qkalantary/YikChatSwift/YikChatSwift/ViewController.swift"
+                  timestampString = "439258840.498663"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YikChatSwift.ViewController.chatView.setter : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UITextView&gt;"
+                  moduleName = "YikChatSwift"
+                  urlString = "file:///Users/qkalantary/YikChatSwift/YikChatSwift/ViewController.swift"
+                  timestampString = "439258840.498854"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YikChatSwift.ViewController.chatView.materializeForSet : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UITextView&gt;"
+                  moduleName = "YikChatSwift"
+                  urlString = "file:///Users/qkalantary/YikChatSwift/YikChatSwift/ViewController.swift"
+                  timestampString = "439258840.499012"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YikChatSwift.ViewController.init (YikChatSwift.ViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; YikChatSwift.ViewController"
+                  moduleName = "YikChatSwift"
+                  urlString = "file:///Users/qkalantary/YikChatSwift/YikChatSwift/ViewController.swift"
+                  timestampString = "439258840.499164"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "292">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YikChatSwift.ViewController.init (YikChatSwift.ViewController.Type)() -&gt; YikChatSwift.ViewController"
+                  moduleName = "YikChatSwift"
+                  urlString = "file:///Users/qkalantary/YikChatSwift/YikChatSwift/ViewController.swift"
+                  timestampString = "439258840.499317"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "240">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YikChatSwift.ViewController.init (YikChatSwift.ViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; YikChatSwift.ViewController"
+                  moduleName = "YikChatSwift"
+                  urlString = "file:///Users/qkalantary/YikChatSwift/YikChatSwift/ViewController.swift"
+                  timestampString = "439258840.499469"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "264">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YikChatSwift/ViewController.swift"
+            timestampString = "439258841.585599"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YikChatSwift.ViewController.messageField.getter : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UITextField&gt;"
+                  moduleName = "YikChatSwift"
+                  urlString = "file:///Users/qkalantary/YikChatSwift/YikChatSwift/ViewController.swift"
+                  timestampString = "439258841.61836"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YikChatSwift.ViewController.messageField.setter : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UITextField&gt;"
+                  moduleName = "YikChatSwift"
+                  urlString = "file:///Users/qkalantary/YikChatSwift/YikChatSwift/ViewController.swift"
+                  timestampString = "439258841.618582"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YikChatSwift.ViewController.messageField.materializeForSet : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UITextField&gt;"
+                  moduleName = "YikChatSwift"
+                  urlString = "file:///Users/qkalantary/YikChatSwift/YikChatSwift/ViewController.swift"
+                  timestampString = "439258841.618739"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YikChatSwift.ViewController.init (YikChatSwift.ViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; YikChatSwift.ViewController"
+                  moduleName = "YikChatSwift"
+                  urlString = "file:///Users/qkalantary/YikChatSwift/YikChatSwift/ViewController.swift"
+                  timestampString = "439258841.618902"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "316">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YikChatSwift.ViewController.init (YikChatSwift.ViewController.Type)() -&gt; YikChatSwift.ViewController"
+                  moduleName = "YikChatSwift"
+                  urlString = "file:///Users/qkalantary/YikChatSwift/YikChatSwift/ViewController.swift"
+                  timestampString = "439258841.619056"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "264">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YikChatSwift.ViewController.init (YikChatSwift.ViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; YikChatSwift.ViewController"
+                  moduleName = "YikChatSwift"
+                  urlString = "file:///Users/qkalantary/YikChatSwift/YikChatSwift/ViewController.swift"
+                  timestampString = "439258841.619207"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "288">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

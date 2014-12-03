@@ -2,35 +2,35 @@ import UIKit
 import MultipeerConnectivity
 
 class ViewController: UIViewController, MCBrowserViewControllerDelegate,
-MCSessionDelegate {
+MCSessionDelegate,UITextFieldDelegate {
     
-    let serviceType = "LCOC-Chat"
+
     
     var browser : MCBrowserViewController!
     var assistant : MCAdvertiserAssistant!
     var session : MCSession!
-    var peerID: MCPeerID!
+    let serviceType = "yik-chat"
     
     @IBOutlet var chatView: UITextView!
     @IBOutlet var messageField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        self.peerID = MCPeerID(displayName: UIDevice.currentDevice().name)
-        self.session = MCSession(peer: peerID)
+        println("messaging")
+        messageField.delegate = self
+
+        self.session = MCSession(peer: global.peerID)
         self.session.delegate = self
         
-        // create the browser viewcontroller with a unique service name
         self.browser = MCBrowserViewController(serviceType:serviceType,
             session:self.session)
         
         self.browser.delegate = self;
         
+        //initialize assistant
         self.assistant = MCAdvertiserAssistant(serviceType:serviceType,
             discoveryInfo:nil, session:self.session)
         
-        // tell the assistant to start advertising our fabulous chat
         self.assistant.start()
     }
     
@@ -38,40 +38,39 @@ MCSessionDelegate {
         // Bundle up the text in the message field, and send it off to all
         // connected peers
         
-        let msg = self.messageField.text.dataUsingEncoding(NSUTF8StringEncoding,
+        let msg = (global.peerID.displayName + ": " + self.messageField.text + "\n").dataUsingEncoding(NSUTF8StringEncoding,
             allowLossyConversion: false)
         
         var error : NSError?
-        
+        println(global.peerID.displayName)
         self.session.sendData(msg, toPeers: self.session.connectedPeers,
-            withMode: MCSessionSendDataMode.Unreliable, error: &error)
+            withMode: MCSessionSendDataMode.Reliable, error: &error)
         
-        if error != nil {
-            print("Error sending data: \(error?.localizedDescription)")
-        }
+        //if error != nil {
+        //    print("Error sending data: \(error?.localizedDescription)")
+        //}
         
-        self.updateChat(self.messageField.text, fromPeer: self.peerID)
+        self.updateChat("Me" + ": " + self.messageField.text + "\n", fromPeer: global.peerID)
         
         self.messageField.text = ""
     }
     
     func updateChat(text : String, fromPeer peerID: MCPeerID) {
-        // Appends some text to the chat view
-        
-        // If this peer ID is the local device's peer ID, then show the name
-        // as "Me"
         var name : String
         
-        switch peerID {
-        case self.peerID:
+        if (peerID == global.peerID) {
             name = "Me"
-        default:
+        } else {
             name = peerID.displayName
+            println(peerID.displayName)
         }
-        
+    
+    
         // Add the name to the message and display it
-        let message = "\(name): \(text)\n"
-        self.chatView.text = self.chatView.text + message
+        //let message = "\(name): \(text)\n"
+        self.chatView.text = self.chatView.text + text
+        //[TextView scrollRangeToVisible:NSMakeRange([TextView.text length], 0)];
+       // chatView.scrollRangeToVisible(0, chatView.text)
         
     }
     
@@ -82,10 +81,16 @@ MCSessionDelegate {
     
     func browserViewControllerDidFinish(
         browserViewController: MCBrowserViewController!)  {
-            // Called when the browser view controller is dismissed (ie the Done
-            // button was tapped)
-            
+            // Called when the browser view controller is dismissed
+            connection()
             self.dismissViewControllerAnimated(true, completion: nil)
+    }
+    
+    func connection()  {
+            // Called when the browser view controller is dismissed
+        let message = "Someone has joined the YikChat!\n"
+        self.chatView.text = self.chatView.text + message
+
     }
     
     func browserViewControllerWasCancelled(
@@ -106,6 +111,11 @@ MCSessionDelegate {
                 
                 self.updateChat(msg!, fromPeer: peerID)
             }
+    }
+    
+    func textFieldShouldReturn(textField: UITextField!) -> Bool {
+        self.view.endEditing(true);
+        return false;
     }
     
     // The following methods do nothing, but the MCSessionDelegate protocol

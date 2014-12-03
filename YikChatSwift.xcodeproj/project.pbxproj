@@ -16,6 +16,8 @@
 		18741F001A2E30580099A935 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18741EFF1A2E30580099A935 /* Images.xcassets */; };
 		18741F031A2E30580099A935 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18741F011A2E30580099A935 /* LaunchScreen.xib */; };
 		18741F0F1A2E30580099A935 /* YikChatSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18741F0E1A2E30580099A935 /* YikChatSwiftTests.swift */; };
+		18FCA3D51A2ECA25002DAEFA /* YikChatpic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18FCA3D41A2ECA25002DAEFA /* YikChatpic.jpg */; };
+		18FCA3D71A2ECA2E002DAEFA /* YikChatLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18FCA3D61A2ECA2E002DAEFA /* YikChatLogo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		18741F081A2E30580099A935 /* YikChatSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YikChatSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18741F0D1A2E30580099A935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18741F0E1A2E30580099A935 /* YikChatSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YikChatSwiftTests.swift; sourceTree = "<group>"; };
+		18FCA3D41A2ECA25002DAEFA /* YikChatpic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = YikChatpic.jpg; path = ../../Downloads/YikChatpic.jpg; sourceTree = "<group>"; };
+		18FCA3D61A2ECA2E002DAEFA /* YikChatLogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = YikChatLogo.jpg; path = ../../Downloads/YikChatLogo.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 		18741EF21A2E30580099A935 /* YikChatSwift */ = {
 			isa = PBXGroup;
 			children = (
+				18FCA3D61A2ECA2E002DAEFA /* YikChatLogo.jpg */,
+				18FCA3D41A2ECA25002DAEFA /* YikChatpic.jpg */,
 				18741EF51A2E30580099A935 /* AppDelegate.swift */,
 				18741EFA1A2E30580099A935 /* ViewController.swift */,
 				182116531A2E7EBF00022CB4 /* global.swift */,
@@ -203,6 +209,8 @@
 			files = (
 				18741EFE1A2E30580099A935 /* Main.storyboard in Resources */,
 				18741F031A2E30580099A935 /* LaunchScreen.xib in Resources */,
+				18FCA3D71A2ECA2E002DAEFA /* YikChatLogo.jpg in Resources */,
+				18FCA3D51A2ECA25002DAEFA /* YikChatpic.jpg in Resources */,
 				18741F001A2E30580099A935 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

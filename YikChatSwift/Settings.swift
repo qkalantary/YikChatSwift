@@ -31,7 +31,7 @@ class Settings: UIViewController,UITextFieldDelegate {
         let msg = self.textInput.text
         if (msg != nil && msg != "" && msg.utf16Count < 20) {
             global.setName(msg)
-            self.informativeLabel.text = "Your New Name Is Set!!!"
+            self.informativeLabel.text = "You have set your new username: " + msg; 
         } else {
             println("invalid name")
         }
@@ -40,6 +40,14 @@ class Settings: UIViewController,UITextFieldDelegate {
     
     func textFieldShouldReturn(textField: UITextField!) -> Bool {
         self.view.endEditing(true);
+        let msg = self.textInput.text
+        if (msg != nil && msg != "" && msg.utf16Count < 20) {
+            global.setName(msg)
+            self.informativeLabel.text = "You have set your new username: " + msg;
+        } else {
+            println("invalid name")
+        }
+        self.textInput.text = ""
         return false;
     }
 

@@ -66,7 +66,7 @@
                     <tabBarItem key="tabBarItem" title="Chat" selectedImage="YikChatLogo.jpg" id="mJt-d8-eRz"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
-                        <outlet property="chatView" destination="NgE-TD-fQ2" id="JQZ-uj-ldW"/>
+                        <outlet property="chatView" destination="NgE-TD-fQ2" id="oz9-MO-nCw"/>
                         <outlet property="messageField" destination="M57-Qn-77m" id="vRD-Vg-7Ns"/>
                     </connections>
                 </viewController>
